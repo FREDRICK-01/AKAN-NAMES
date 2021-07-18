@@ -21,3 +21,10 @@ h1 {
     opacity: 0.9;
     border-radius: 10px;
   }
+  h2 {
+      font-size: large;
+      color: bisque;
+      text-align: center;
+      font-size: x-large;
+  }
+  
