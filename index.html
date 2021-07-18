@@ -17,7 +17,7 @@
     <div class="overlay">
         <div class="container">
             <h2>Enter your details Here...</h2>
-        <form name="myForm" class="form" onsubmit="validate();">
+         <form name="myForm" class="form" onsubmit="validate();">
             <div class="form-group">
                 <label for="number">Year of birth:</label>
                 <input type="number" class="form-control" id="year" placeholder="Year of Birth:" name="year">
@@ -27,8 +27,8 @@
                 <input type="number" class="form-control" id="month" placeholder="Month of Birth:" name="month">
             </div>
             <div class="form-group">
-                <label for="date">Dte of Birth:</label>
-                <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+                <label for="date">Date of Birth:</label>
+                <input type="number" class="form-control" id="date" placeholder="Date of Birth:" name="date">
             </div>
             <div class="form-group">
                 <label for="month">Gender</label>
@@ -38,8 +38,17 @@
                         <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
                     </label>
                 </div>
+                <div class="form-check-block">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                    </label>
+               </div>
             </div>
-        </div>
+            <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+            <br>
+         </form>
+         <p id="results"> </p>
+       </div>
     </div>
         
 </body>
