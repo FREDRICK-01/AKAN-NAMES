@@ -57,3 +57,6 @@ h1 {
       margin-left: 1%;
       margin-right: 1%;  }
     }
+button {
+    float: right;
+}
