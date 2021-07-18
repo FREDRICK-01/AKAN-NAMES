@@ -30,3 +30,16 @@ h1 {
   label {
       color: white;
   }
+  .form{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .form-group{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Quattrocento', serif;
+  }
+  .form-check-label{
+    color: rgb(255, 255, 255);
+  }
