@@ -69,3 +69,6 @@ button {
   background-color: black;
   color: aliceblue;
 }
+.video {
+  position: relative;
+}
