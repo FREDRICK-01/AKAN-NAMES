@@ -15,6 +15,7 @@ git clone https://github.com/FREDRICK-01/AKAN-NAMES.git
 
 cd Akan-Names
 
+
 code . or atom . based on the text editor you have.
 
 Technologies Used
