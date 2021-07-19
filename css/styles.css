@@ -1,5 +1,5 @@
 body {
-    background-image: url("./assets/accra-1024x808.jpg");
+    background-image: url(../assets/accra-1024x808.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -69,7 +69,4 @@ button {
 .footer {
   background-color: black;
   color: aliceblue;
-}
-.video {
-  position: relative;
 }
