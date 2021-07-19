@@ -1,9 +1,9 @@
-/* body {
-    background-image: url(/assets/circuito-3-dias-ghana.webp);
+body {
+    background-image: url(../assets/accra-1024x808.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-} */
+}
 h1 {
     font-family: 'Aclonica', sans-serif;
     font-weight: bolder;
@@ -69,7 +69,4 @@ button {
 .footer {
   background-color: black;
   color: aliceblue;
-}
-.video {
-  position: relative;
 }
