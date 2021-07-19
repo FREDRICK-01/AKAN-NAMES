@@ -6,7 +6,7 @@ Description
 This project is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 
 Screenshot
-![AKAN NAMES](Screenshot from 2021-07-19 08-59-46.png)
+![AKAN NAMES](assets/Screenshot from 2021-07-19 08-59-46.png)
 
 Installation / Setup instruction
 Open Terminal {Ctrl+Alt+T}
