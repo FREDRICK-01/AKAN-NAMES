@@ -1,0 +1,74 @@
+body {
+    background-image: url("/assets/accra-1024x808.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Aclonica', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    font-size: 48px;
+    
+  }
+  .overlay{
+    background-color: rgb(0,0,0,0.5);
+    margin-left: 25%;
+    margin-right: 16%;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+  h2 {
+      font-size: large;
+      color: bisque;
+      text-align: center;
+      font-size: x-large;
+  }
+  label {
+      color: white;
+  }
+  .form{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .form-group{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .form-check-label{
+    color: rgb(255, 255, 255);
+  }
+  input[type="radio"] {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  @media only screen and (max-width: 600px){
+    .overlay{
+      margin-left: 1%;
+      margin-right: 2%;
+    }
+  }
+  @media only screen and (max-width: 800px){
+    .overlay{
+      margin-left: 1%;
+      margin-right: 1%;  }
+    }
+button {
+    float: right;
+}
+#one {
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+.footer {
+  background-color: black;
+  color: aliceblue;
+}
+.video {
+  position: relative;
+}
